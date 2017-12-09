@@ -1,0 +1,19 @@
+fontawesome:
+  remote: https://use.fontawesome.com/releases/v5.0.1/js/all.js
+  version: 5.0.1
+  license:
+    name: MIT, SIL OFL, CC BY
+    url: http://fontawesome.com/license
+    gpl-compatible: true
+  js:
+    https://use.fontawesome.com/releases/v5.0.1/js/all.js: {type: external, minified: true, attributes: { defer: true } }
+
+aemusic:
+  version: 1.x
+  css:
+    theme:
+      css/aemusic.css: {}
+  js:
+    js/aemusic.js: {}
+  dependencies:
+    - core/jquery

@@ -1,0 +1,12 @@
+name: AE Music
+description: Creates a means of creating and playing playlists for the Anaguma Eisa website
+package: Media
+
+type: module
+core: 8.x
+
+version: 1.0
+
+dependencies:
+  - node
+  - block
