@@ -20,7 +20,7 @@ class AEPlaylist extends BlockBase {
   public function build() {
     return array(
 	  '#type' => 'markup',
-      '#markup' => $this->t('<div id="aeplaylist-ctrls"><i class="fas fa-random"></i></div>'),
+      '#markup' => $this->t('<div id="aeplaylist-ctrls"><div class="ae-ctrl"><i class="fas fa-random"></i></div><div class="ae-ctrl"><i class="fas fa-step-backward"></i></div><div class="ae-ctrl"><i class="fas fa-play"></i></div><div class="ae-ctrl"><i class="fas fa-pause"></i></div><div class="ae-ctrl"><i class="fas fa-step-forward"></i></div><div class="ae-ctrl"><i class="fas fa-sync"></i></div></div>'),
       '#attached' => array(
 	    'library' => array(
 		  'aemusic/fontawesome',
