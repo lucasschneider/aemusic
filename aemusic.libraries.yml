@@ -13,7 +13,13 @@ aemusic:
   css:
     theme:
       css/aemusic.css: {}
+
+aeplayer:
+  version: 1.x
   js:
-    js/aemusic.js: {}
-  dependencies:
-    - core/jquery
+    js/aeplayer.js: {}
+
+aeplaylist:
+  version: 1.x
+  js:
+    js/aeplaylist.js: {}

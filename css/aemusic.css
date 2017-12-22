@@ -1,0 +1,33 @@
+#aeplaylist-ctrls {
+  width: 230px;
+  margin: 0 auto;
+}
+
+.ae-ctrl {
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid #d02323;
+  border-radius: 7px;
+  margin-right: .75em;
+  color: #d02323;
+  cursor: pointer;
+}
+
+.ae-ctrl:hover,
+.ae-ctrl.active {
+  background: #d02323;
+  color: #fcf7f7;
+}
+
+#ae-repeat-counter {
+  background: #d02323;
+  border: 5px solid #fcf7f7;
+  right: -15px;
+  top: -15px;
+  font-size: 3em;
+}
+
+#noPlaylist {
+  text-align: center;
+  margin-top: 1em;
+}

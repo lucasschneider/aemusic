@@ -19,15 +19,21 @@ class AEPlayer extends BlockBase {
    */
   public function build() {
     return array(
-	  '#type' => 'markup',
-      '#markup' => $this->t('<audio id="aeplayer" controls><source id="aeplayer-src" src="" type="audio/mpeg" /></audio><div id="aeplayer-details"></div>'),
+      '#type' => 'markup',
+      '#markup' => $this->t('
+        <audio id="aeplayer" controls>
+          <source id="aeplayer-src" src="" type="audio/mpeg" />
+        </audio>
+        <div id="aeplayer-details">
+        </div>'),
       '#attached' => array(
-	    'library' => array(
-		  'aemusic/fontawesome',
-		  'aemusic/aemusic',
-		)
-	  )
-	);
+        'library' => array(
+          'aemusic/fontawesome',
+          'aemusic/aemusic',
+          'aemusic/aeplayer',
+        )
+      )
+    );
   }
 }
 ?>
